@@ -10,7 +10,7 @@ router.get("/questions", async function (req, res) {
     const data = await getQuestionsByTopic(topicname);
     res.json({
       success: true,
-      message: `Found questions by ${topic}`,
+      message: `Found questions by ${topicname}`,
       payload: data,
     });
     return;
