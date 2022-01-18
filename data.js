@@ -205,37 +205,37 @@ const data = [
       Incorrect_answers: ["Importing Jest at the top of your file","Calling const test = new Jest() before your test statements","It just knows by magic!"]
     },
     {
-      Topic: "react advanced ",
+      Topic: "react_advanced ",
       Question: "Which of these describes a finite state machine? *",
       Correct_answer: "A system where only particular, specified inputs cause only particular, specified changes in state.",
       Incorrect_answers: ["A system where any input causes only particular, specified changes in state.","A system where any inputs cause any changes in state.","A system where only particular, specified inputs cause any changes in state."]
     },
     {
-      Topic: "react advanced",
+      Topic: "react_advanced",
       Question: "In the reduce method's callback function, what is the role of the accumulator? *",
       Correct_answer: "Holds the previously returned value of the callback function after each iteration and is ultimately returned from .reduce after it's finished iterating through the array",
       Incorrect_answers: ["Holds the initial value","Is undefined until .reduce is finished iterating through the array","Holds the current value of the array as the function iterates over each item"]
     },
     {
-      Topic: "react advanced",
+      Topic: "react_advanced",
       Question: "Fill in the blank: In order to specify the conditions when a useEffect should be triggered, you need to add a ______ array as the second argument. *",
       Correct_answer: "dependency",
       Incorrect_answers: ["callback","state","behavior","cleanup"]
     },
     {
-      Topic: "react advanced",
+      Topic: "react_advanced",
       Question: "Fill in the blank to add a test id of \"submit-button\" to this JSX button component: <button ____=\"submit-button\" /> *",
       Correct_answer: "data-testid",
       Incorrect_answers: ["data","testid","testid-data","id"]
     },
     {
-      Topic: "react advanced",
+      Topic: "react_advanced",
       Question: "Unit tests should be ?",
       Correct_answer: "Small and maintainable tests that test one thing well",
       Incorrect_answers: ["Tests that test lots of functionality in one go"]
     },
     {
-      Topic: "react advanced",
+      Topic: "react_advanced",
       Question: "How would you simulate clicking on an element stored in a variable called myButton using fireEvent? *",
       Correct_answer: "fireEvent.click(myButton)",
       Incorrect_answers: ["click(myButton)","myButton.fireEvent(click)","fireEvent(myButton)"]
@@ -307,55 +307,55 @@ const data = [
       Incorrect_answers: ["NPM is a risky way to add dependencies","We should avoid using dependencies wherever possible","Different versions of dependencies may not work in the same way, so we need to specify the version that works with our software","We have to know the version of our dependencies in order to add their node_modules to .gitignore,"]
     },
     {
-      Topic: "React_basics",
+      Topic: "react_basics",
       Question: "Which of these is a correct example of an ES6 module import you'd use when importing a component called ComponentName?",
       Correct_answer: "import ComponentName from \"./ComponentName\"",
       Incorrect_answers: ["import module ComponentName","module.import ComponentName","import default \"./ComponentName\""]
     },
     {
-      Topic: "React_basics",
+      Topic: "react_basics",
       Question: "What do we type into the terminal to create a new React app called demo?",
       Correct_answer: "npx create-react-app demo",
       Incorrect_answers: ["npm create-react-app demo","npm i demo --create-react-app","npm start react --demo"]
     },
     {
-      Topic: "React_basics",
+      Topic: "react_basics",
       Question: "What command do you use in the terminal to start a React app that has been initialised with create-react-app?",
       Correct_answer: "npm run",
       Incorrect_answers: ["npm i react","npm start","npx create-react-app"]
     },
     {
-      Topic: "React_basics",
+      Topic: "react_basics",
       Question: "Fill in the blank: A ____ component manages its own state.",
       Correct_answer: "Smart",
       Incorrect_answers: ["Handy","Advanced","Primitive","Dumb"]
     },
     {
-      Topic: "React_basics",
+      Topic: "react_basics",
       Question: "Which of these is valid syntax to create a state that starts as an empty string?",
       Correct_answer: "const [state, setState] = useState(\"\")",
       Incorrect_answers: ["const {state, setState} = useState(\"\")","const [state, setState] = useState \"\"","const [state setState] = useState(\"\")"]
     },
     {
-      Topic: "React_basics",
+      Topic: "react_basics",
       Question: "Which of these is a correct ES6 module export you would use when exporting a component as a default export at the bottom of its file?",
       Correct_answer: "export default ComponentName",
       Incorrect_answers: ["export default {ComponentName}","module.exports = ComponentName","export ComponentName"]
     },
     {
-      Topic: "React_basics",
+      Topic: "react_basics",
       Question: "What do we mean when we say to be immutable when we're working with arrays and objects?",
       Correct_answer: "Instead of changing the original array or object, making a shallow copy with any changes to the object or array's contents (via spreading/slicing)",
       Incorrect_answers: ["Changing the original copy of the object or array to ensure consistency across the application","Making sure to update every array and object in your code at once","Making sure not to mutate the array or object into either one of the X-Men or a Teenage Mutant Ninja Turtle"]
     },
     {
-      Topic: "React_basics",
+      Topic: "react_basics",
       Question: "How would you use the spread operator to spread the contents of an array called pets into a new array called newPets?",
       Correct_answer: "const newPets = [...pets]",
       Incorrect_answers: ["const newPets = ...pets","const newPets = [pets]","const newPets = pets"]
     },
     {
-      Topic: "React_basics",
+      Topic: "react_basics",
       Question: "How would you slice an array called pets so that your slice contains the first three items in the array?",
       Correct_answer: "pets.slice(0,2)",
       Incorrect_answers: ["pets.slice(3)","pets.slice(1,3)","pets.slice(0, 3)","pets.slice(pets[2])"]
