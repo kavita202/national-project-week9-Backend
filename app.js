@@ -6,20 +6,12 @@ import cors from "cors";
 import logger from "morgan";
 
 import router from "./routes/questions.js";
-import { application_name } from "pg/lib/defaults";
 
 const app = express();
 
 app.use(logger("dev"));
-app.use(cors());
-app.use(function (req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept"
-  );
-  next();
-});
+app.use(cors({ origin: "https://cranky-benz-c47f20.netlify.app" }));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
