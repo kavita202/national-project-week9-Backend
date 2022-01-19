@@ -17,7 +17,7 @@ const app = express();
 app.use(function (req, res, next) {
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "https://cranky-benz-c47f20.netlify.app/"
+    "https://cranky-benz-c47f20.netlify.app"
   );
   res.setHeader("Access-Control-Allow-Methods", "GET");
 });
