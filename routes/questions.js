@@ -3,7 +3,7 @@ const router = express.Router();
 import { getQuestionsByTopic, getAllQuestions } from "../models/questions.js";
 
 /* GET users listing. */
-router.get("/questions", async function (req, res) {
+router.get("/questions", cors(corsOptions), async function (req, res) {
   let topicname = req.query.topic;
   console.log(topicname);
   if (topicname) {
