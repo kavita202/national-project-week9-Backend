@@ -4,7 +4,7 @@ const data = [
       Topic: "frontend",
       Question: "Which of the following would be a good, reusable class name for a warning alert in your CSS?",
       Correct_answer: ".warning-alert",
-      Incorrect_answers: [".red-alert", ".a", ".red alert"]
+      Incorrect_answers: [".red-alert",".a",".red alert"]
     },
     {
       Topic: "frontend",
