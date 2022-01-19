@@ -10,19 +10,19 @@ import { application_name } from "pg/lib/defaults";
 
 const app = express();
 
-// var corsOptions = {
-//   origin: 'https://cranky-benz-c47f20.netlify.app/',
-//   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-// }
+app.use(logger("dev"));
+app.use(cors());
 app.use(function (req, res, next) {
-  res.setHeader(
+  res.header(
     "Access-Control-Allow-Origin",
     "https://cranky-benz-c47f20.netlify.app"
   );
-  res.setHeader("Access-Control-Allow-Methods", "GET");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
 });
-app.use(logger("dev"));
-app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
