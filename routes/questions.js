@@ -19,8 +19,10 @@ router.get("/questions", async function (req, res) {
   res.json({
     success: true,
     message: "here are all the questions",
-    payload: allquestions,
+    payload:allquestions,
   });
 });
+
+//hello
 
 export default router;
