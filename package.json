@@ -9,6 +9,7 @@
     "dbcreatetable": "node -r dotenv/config ./db/createtable.js",
     "dbcreaterescourcestable": "node -r dotenv/config ./db/createResourcesTable.js",
     "dbpopulatetable": "node -r dotenv/config ./db/populatetable.js",
+    "dbpopulateresourcestable": "node -r dotenv/config ./db/populateResourceTable.js",
     "dbcleartable": "node -r dotenv/config ./db/cleartable.js"
   },
   "dependencies": {

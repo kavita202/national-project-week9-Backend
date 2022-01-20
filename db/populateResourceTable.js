@@ -8,7 +8,7 @@ async function populateResourcesTable() {
     const url = resourceData[i].url;
 
     const res = await query(
-      `INSERT INTO resources (topic, title, url) VALUES ($1, $2, $3, $4) RETURNING *;`,
+      `INSERT INTO resources (topic, title, url) VALUES ($1, $2, $3) RETURNING *;`,
       [topic, title, url]
     );
     console.log(res);

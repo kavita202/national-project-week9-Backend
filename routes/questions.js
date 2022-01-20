@@ -1,6 +1,10 @@
 import express from "express";
 const router = express.Router();
-import { getQuestionsByTopic, getAllQuestions } from "../models/questions.js";
+import {
+  getQuestionsByTopic,
+  getAllQuestions,
+  getAllResources,
+} from "../models/questions.js";
 
 /* GET users listing. */
 router.get("/questions", async function (req, res) {
@@ -19,10 +23,17 @@ router.get("/questions", async function (req, res) {
   res.json({
     success: true,
     message: "here are all the questions",
-    payload:allquestions,
+    payload: allquestions,
   });
 });
 
-//hello
+router.get("/resources", async function (req, res) {
+  const resources = await getAllResources();
+  res.json({
+    success: true,
+    message: "here are all the resources",
+    payload: resources,
+  });
+});
 
 export default router;

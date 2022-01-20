@@ -12,3 +12,8 @@ export async function getAllQuestions() {
   const data = await query(`SELECT * FROM questions;`);
   return data.rows;
 }
+
+export async function getAllResources() {
+  const resources = await query(`SELECT * FROM resources`);
+  return resources.rows;
+}
