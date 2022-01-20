@@ -28,7 +28,7 @@ const data = [
       Topic: "frontend",
       Question: "How do you declare a CSS variable for colour blue?",
       Correct_answer: "--blue: #1e90ff;",
-      Incorrect_answers: ["blue: #1e90ff;" , -"blue: #1e90ff;" , "blue-:#1e90ff;"]
+      Incorrect_answers: ["blue: #1e90ff;" , "-blue: #1e90ff;" , "blue-:#1e90ff;"]
     },
     {
       Topic: "frontend",
@@ -63,8 +63,8 @@ const data = [
     {
       Topic: "frontend",
       Question: "When is it useful to use an array to represent something?",
-      Correct_answer: "When you have a bunch of properties",
-      Incorrect_answers: ["When you can't think of anything else", "When you have a large piece of text", "When you have a collection of things, and the order matters"]
+      Correct_answer: "When you have a collection of things, and the order matters",
+      Incorrect_answers: ["When you can't think of anything else", "When you have a large piece of text", "When you have a bunch of properties"]
     },
     {
       Topic: "frontend",
@@ -81,8 +81,8 @@ const data = [
     {
       Topic: "frontend",
       Question: "We have selected a button, and pointed to it with a variable called button. How do we add a listener so that when the button is clicked, we run the doSomething function?",
-      Correct_answer: "button.addEventListener(\"onClick\", doSomething());",
-      Incorrect_answers: ["button.addEventListener(\"click\", doSomething());", "button.addEventListener(\"click\", doSomething);", "button.addEventListener(\"onClick\", doSomething);"]
+      Correct_answer: "button.addEventListener(\"click\", doSomething);",
+      Incorrect_answers: ["button.addEventListener(\"click\", doSomething());", "button.addEventListener(\"onClick\", doSomething());", "button.addEventListener(\"onClick\", doSomething);"]
     },
     {
       Topic: "frontend",
@@ -105,8 +105,8 @@ const data = [
     {
       Topic: "backend",
       Question: "What is REST?",
-      Correct_answer: "A Javascript framework for writing APIs",
-      Incorrect_answers: ["A programming language","An architectural standard informing how APIs are structured","What you should do at least for 5 minutes every hour","An architectural standard informing how APIs are structured,"]
+      Correct_answer: "An architectural standard informing how APIs are structured",
+      Incorrect_answers: ["A programming language","What you should do at least for 5 minutes every hour","A Javascript framework for writing APIs"]
     },
     {
       Topic: "backend",
@@ -357,14 +357,8 @@ const data = [
     {
       Topic: "react_basics",
       Question: "How would you slice an array called pets so that your slice contains the first three items in the array?",
-      Correct_answer: "pets.slice(0,2)",
-      Incorrect_answers: ["pets.slice(3)","pets.slice(1,3)","pets.slice(0, 3)","pets.slice(pets[2])"]
-    },
-    {
-      Topic: "backend",
-      Question: "What do req and res stand for in our Express handlers? ",
-      Correct_answer: "Request and response",
-      Incorrect_answers: ["Requirements and response","Request and result","Require and result","Request and respectTheCode"]
+      Correct_answer: "pets.slice(0,3)",
+      Incorrect_answers: ["pets.slice(3)","pets.slice(1,3)","pets.slice(0, 2)","pets.slice(pets[2])"]
     },
     {
       Topic: "backend",
