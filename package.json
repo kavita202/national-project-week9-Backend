@@ -7,6 +7,7 @@
     "start": "node ./bin/www.js",
     "dev": "node -r dotenv/config ./bin/www.js",
     "dbcreatetable": "node -r dotenv/config ./db/createtable.js",
+    "dbcreaterescourcestable": "node -r dotenv/config ./db/createResourcesTable.js",
     "dbpopulatetable": "node -r dotenv/config ./db/populatetable.js",
     "dbcleartable": "node -r dotenv/config ./db/cleartable.js"
   },
