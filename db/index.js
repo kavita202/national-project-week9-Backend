@@ -1,6 +1,6 @@
 import pg from "pg";
-import * as config from "../config.js";
-import { connectionString } from "../config";
+import  { connectionString } from "../config.js";
+
 const pool = new pg.Pool({
   //Heroku credentials are now environment variables
   connectionString,
