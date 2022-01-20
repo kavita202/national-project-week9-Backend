@@ -9,16 +9,15 @@ import router from "./routes/questions.js";
 
 const app = express();
 
-app.use(logger("dev"));
-// app.use(cors({ origin: "https://cranky-benz-c47f20.netlify.app" }));
 
 app.use(logger("dev"));
 
-app.use(
-  cors({
-    origin: "*",
-  })
-);
+app.use(cors({ origin: "https://cranky-benz-c47f20.netlify.app/questions/frontend" }));
+// app.use(
+//   cors({
+//     origin: "*",
+//   })
+// );
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
