@@ -14,7 +14,7 @@ app.use(logger("dev"));
 
 
 app.use(
-  cors()
+  cors({origin: "*"})
 );
 
 app.use(express.json());
