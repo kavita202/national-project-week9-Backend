@@ -5,19 +5,26 @@
   "type": "module",
   "scripts": {
     "start": "node ./bin/www.js",
-    "dev": "node -r dotenv/config ./bin/www.js",
+    "dev": "nodemon -r dotenv/config ./bin/www.js",
     "dbcreatetable": "node -r dotenv/config ./db/createtable.js",
     "dbcreaterescourcestable": "node -r dotenv/config ./db/createResourcesTable.js",
     "dbpopulatetable": "node -r dotenv/config ./db/populatetable.js",
     "dbpopulateresourcestable": "node -r dotenv/config ./db/populateResourceTable.js",
-    "dbcleartable": "node -r dotenv/config ./db/cleartable.js"
+    "dbcleartable": "node -r dotenv/config ./db/cleartable.js",
+    "dbcreateuserstable": "node -r dotenv/config ./db/usersTable.js"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
     "debug": "~2.6.9",
+    "ejs": "^3.1.6",
     "express": "~4.16.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.2",
     "morgan": "~1.9.1",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
     "pg": "^8.7.1"
   },
   "devDependencies": {

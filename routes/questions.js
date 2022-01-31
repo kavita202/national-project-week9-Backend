@@ -1,12 +1,13 @@
 import express from "express";
 const router = express.Router();
+
 import {
   getQuestionsByTopic,
   getAllQuestions,
   getAllResources,
 } from "../models/questions.js";
 
-/* GET users listing. */
+
 router.get("/questions", async function (req, res) {
   let topicname = req.query.topic;
   console.log(topicname);

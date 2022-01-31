@@ -1,0 +1,17 @@
+<h1>Login</h1>
+<!-- flask sets a message variable and passport sets the error message -->
+<% if (messages.error) { %> <%= messages.error %> <% } %>
+<!-- method post = post to a route with the name /login-->
+<form action="/login" method="POST">
+  <!-- refactor later to nest input inside label and remove for and id -->
+  <div>
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" required />
+  </div>
+  <div>
+    <label for="password">Password</label>
+    <input type="text" id="password" name="password" required />
+  </div>
+  <button type="submit">Login</button>
+</form>
+<a href="/register">Login</a>

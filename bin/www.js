@@ -9,7 +9,9 @@ import http from "http";
 
 import app from "../app.js";
 
-const debug = debugLib("national-project-week-repo-2-thomas-kavita-lorcan-and-eddie:server");
+const debug = debugLib(
+  "national-project-week-repo-2-thomas-kavita-lorcan-and-eddie:server"
+);
 
 /**
  * Get port from environment and store in Express.
