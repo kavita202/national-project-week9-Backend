@@ -1,11 +1,11 @@
-import query from './index.js'
+import query from "./index.js";
 
-const sqlString = `TRUNCATE TABLE questions;
-;`
+const sqlString = `TRUNCATE TABLE scores;
+;`;
 
-async function deleteQuestions() {
-    const res = await query(sqlString)
-    console.log('Questions table emptied:', res)
+async function deleteScores() {
+  const res = await query(sqlString);
+  console.log("scores table emptied:", res);
 }
 
-deleteQuestions()
+deleteScores();

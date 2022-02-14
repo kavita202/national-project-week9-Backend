@@ -5,6 +5,7 @@ const data = [
       "Which of the following would be a good, reusable class name for a warning alert in your CSS?",
     Correct_answer: ".warning-alert",
     Incorrect_answers: [".red-alert", ".a", ".red alert"],
+    Type: "MCQ",
   },
   {
     Topic: "frontend",
@@ -16,28 +17,32 @@ const data = [
       "Specificity doesn't exist in CSS",
       "It allows you to use JavaScript to target and change specific CSS attributes",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "frontend",
-    Question: "What is the lighthouse audit tool used for ?",
+    Question: "What is the lighthouse audit tool used for?",
     Correct_answer:
       "To audit an webpage and have data that will enable you to make improvements by highlighting accessibility, performance, etc.",
     Incorrect_answers: [
       "Powerful flashing lamp that is built to warn mariners of dangerous shallows and perilous rocky coasts",
       "Lighting up areas of your code where you can improve your syntax",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "frontend",
     Question: "What does BEM stand for in CSS?",
     Correct_answer: "Block Element Modifier",
     Incorrect_answers: ["Block Event Module", "Body Exercise Mass"],
+    Type: "MCQ",
   },
   {
     Topic: "frontend",
     Question: "How do you declare a CSS variable for colour blue?",
     Correct_answer: "--blue: #1e90ff;",
     Incorrect_answers: ["blue: #1e90ff;", "-blue: #1e90ff;", "blue-:#1e90ff;"],
+    Type: "MCQ",
   },
   {
     Topic: "frontend",
@@ -47,6 +52,7 @@ const data = [
       "Declare the CSS variable within a class",
       "Use any CSS selector",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "frontend",
@@ -57,6 +63,7 @@ const data = [
       "Align content both horizontally and vertically",
       "To be cool and appreciated in the dev community",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "frontend",
@@ -68,18 +75,21 @@ const data = [
       "A way of keeping track of variables",
       "A function you define with a fat arrow",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "frontend",
     Question: "What type of scoping describes const and let?",
     Correct_answer: "Block scope",
     Incorrect_answers: ["Function scope", "Globally scope", "Peri scope"],
+    Type: "MCQ",
   },
   {
     Topic: "frontend",
     Question: "What type of scoping describes var?",
     Correct_answer: "Function scope",
     Incorrect_answers: ["Block scope", "Globally scope", "Peri scope"],
+    Type: "MCQ",
   },
   {
     Topic: "frontend",
@@ -91,18 +101,21 @@ const data = [
       "When you have a large piece of text",
       "When you have a bunch of properties",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "frontend",
     Question: "What does the fetch function return?",
     Correct_answer: "A promise",
     Incorrect_answers: ["A ball you threw", "An object", "An array"],
+    Type: "MCQ",
   },
   {
     Topic: "frontend",
     Question: "What does querySelector use to select things from the DOM?",
     Correct_answer: "A valid css selector",
     Incorrect_answers: ["A set of keys", "An object", "Only IDs"],
+    Type: "MCQ",
   },
   {
     Topic: "frontend",
@@ -114,6 +127,7 @@ const data = [
       'button.addEventListener("onClick", doSomething());',
       'button.addEventListener("onClick", doSomething);',
     ],
+    Type: "MCQ",
   },
   {
     Topic: "frontend",
@@ -124,6 +138,7 @@ const data = [
       "When using await, you can concatenate async to make sure it happens",
       "Inside an await function, you always use async",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "frontend",
@@ -135,6 +150,7 @@ const data = [
       "Use divs for everything",
       "Don't use tags",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "frontend",
@@ -145,6 +161,7 @@ const data = [
       "You cannot assign a let, but you can assign a const",
       "You cannot reassign either, but you can change a let to a const",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "backend",
@@ -156,12 +173,14 @@ const data = [
       "What you should do at least for 5 minutes every hour",
       "A Javascript framework for writing APIs",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "backend",
     Question: "Which of these is NOT an HTTP method?",
     Correct_answer: "SAVE",
     Incorrect_answers: ["PUT", "GET", "DELETE,"],
+    Type: "MCQ",
   },
   {
     Topic: "backend",
@@ -173,6 +192,7 @@ const data = [
       "PATCH should remove the item; PUT should put a new one in.",
       "PATCH should replace the whole item; PUT should replace a bit of it.",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "backend",
@@ -185,12 +205,14 @@ const data = [
       "app.get('/user/&id', function(res, req) { res.send('hello world') })",
       "app('/user/:id', function(req, res) { req.send('hello world') })",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "backend",
     Question: "How do you get the body of a POST, PUT, or PATCH request?",
     Correct_answer: "req.body",
     Incorrect_answers: ["res.body", "req.query", "req.params.body"],
+    Type: "MCQ",
   },
   {
     Topic: "backend",
@@ -202,6 +224,7 @@ const data = [
       "Random Sandwich Taster",
       "Ridiculed Sloth Toenails",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "backend",
@@ -209,6 +232,7 @@ const data = [
       'What HTTP status codes would we consider a "good" response that show our request was successful?',
     Correct_answer: "200s",
     Incorrect_answers: ["100s", "200s", "300s", "400s"],
+    Type: "MCQ",
   },
   {
     Topic: "backend",
@@ -221,6 +245,7 @@ const data = [
       "It ensures you're installing the latest version.",
       "It saves the Node package along with installing it.",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "backend",
@@ -231,6 +256,7 @@ const data = [
       "Request and result",
       "Require and result",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "backend",
@@ -242,6 +268,7 @@ const data = [
       "It is specifically to handle requests you haven't got an endpoint for.",
       "It runs code exactly halfway through any of the functions you write in the file.",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "testing",
@@ -253,6 +280,7 @@ const data = [
       "Is a software development practice that focuses on creating unit test cases before developing the actual code",
       "Is a principle aimed at reducing repetition of software patterns, replacing it with abstractions or using data normalization to avoid redundancy",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "testing",
@@ -263,11 +291,12 @@ const data = [
       "Ready, steady go",
       "Pass, Fail, Refactor",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "testing",
     Question:
-      "Why do you need to use .toEqual instead of .toBe with objects and arrays? *",
+      "Why do you need to use .toEqual instead of .toBe with objects and arrays? ",
     Correct_answer:
       ".toBe checks exact equality, while .toEqual checks if each field of an object or array is the same.",
     Incorrect_answers: [
@@ -275,10 +304,11 @@ const data = [
       "Convention; they both do the same thing.",
       ".toEqual tests if any errors are thrown when the function is called.",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "testing",
-    Question: "What is unit testing? *",
+    Question: "What is unit testing? ",
     Correct_answer:
       "When you test a function or method in isolation in code to ensure it's giving the desired outcome.",
     Incorrect_answers: [
@@ -286,38 +316,42 @@ const data = [
       "The regular tests completed during the retrospective after an agile sprint.",
       'If a test is testing too much code, we describe it as an "absolute unit"',
     ],
+    Type: "MCQ",
   },
   {
     Topic: "testing",
-    Question: "What is integration testing? *",
+    Question: "What is integration testing? ",
     Correct_answer: "Testing individual units of a program combined as a group",
     Incorrect_answers: [
       "Testing the whole user journey of an application",
       "Testing whether the front end of an application can talk to a server",
       "Testing whether the people in your tech team can get along with each other",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "testing",
     Question:
-      "Which of the following types of tests are usually the cheapest and most efficient to run? *",
+      "Which of the following types of tests are usually the cheapest and most efficient to run? ",
     Correct_answer: "Unit tests",
     Incorrect_answers: ["Integration tests", "Acceptance tests", "UI tests"],
+    Type: "MCQ",
   },
   {
     Topic: "testing",
     Question:
-      "How do you tell Jest that your file contains tests it needs to run? *",
+      "How do you tell Jest that your file contains tests it needs to run? ",
     Correct_answer: "Ending your file in .test.js",
     Incorrect_answers: [
       "Importing Jest at the top of your file",
       "Calling const test = new Jest() before your test statements",
       "It just knows by magic!",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "react_advanced ",
-    Question: "Which of these describes a finite state machine? *",
+    Question: "Which of these describes a finite state machine? ",
     Correct_answer:
       "A system where only particular, specified inputs cause only particular, specified changes in state.",
     Incorrect_answers: [
@@ -325,11 +359,12 @@ const data = [
       "A system where any inputs cause any changes in state.",
       "A system where only particular, specified inputs cause any changes in state.",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "react_advanced",
     Question:
-      "In the reduce method's callback function, what is the role of the accumulator? *",
+      "In the reduce method's callback function, what is the role of the accumulator? ",
     Correct_answer:
       "Holds the previously returned value of the callback function after each iteration and is ultimately returned from .reduce after it's finished iterating through the array",
     Incorrect_answers: [
@@ -337,49 +372,67 @@ const data = [
       "Is undefined until .reduce is finished iterating through the array",
       "Holds the current value of the array as the function iterates over each item",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "react_advanced",
     Question:
-      "Fill in the blank: In order to specify the conditions when a useEffect should be triggered, you need to add a ______ array as the second argument. *",
+      "Fill in the blank: In order to specify the conditions when a useEffect should be triggered, you need to add a ______ array as the second argument. ",
     Correct_answer: "dependency",
     Incorrect_answers: ["callback", "state", "behavior", "cleanup"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "react_advanced",
+    Question: "Select the benefit that does not arise from using react hooks",
+    Correct_answer: "They take up less memory",
+    Incorrect_answers: [
+      "They abstract away complicated logic making it more readable",
+      "Make logic more testable",
+      "Make logic more reusable",
+    ],
+    Type: "MCQ",
   },
   {
     Topic: "react_advanced",
     Question:
-      'Fill in the blank to add a test id of "submit-button" to this JSX button component: <button ____="submit-button" /> *',
+      'Fill in the blank to add a test id of "submit-button" to this JSX button component: <button ____="submit-button" /> ',
     Correct_answer: "data-testid",
     Incorrect_answers: ["data", "testid", "testid-data", "id"],
+    Type: "MCQ",
   },
   {
     Topic: "react_advanced",
     Question: "Unit tests should be ?",
     Correct_answer: "Small and maintainable tests that test one thing well",
     Incorrect_answers: ["Tests that test lots of functionality in one go"],
+    Type: "MCQ",
   },
   {
     Topic: "react_advanced",
     Question:
-      "How would you simulate clicking on an element stored in a variable called myButton using fireEvent? *",
+      "How would you simulate clicking on an element stored in a variable called myButton using fireEvent? ",
     Correct_answer: "fireEvent.click(myButton)",
     Incorrect_answers: [
       "click(myButton)",
       "myButton.fireEvent(click)",
       "fireEvent(myButton)",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "backend",
     Question: "How do we initialise a Node module?",
     Correct_answer: "npm init",
     Incorrect_answers: ["node start", "git init", "npm start"],
+    Type: "MCQ",
   },
   {
     Topic: "backend",
     Question: "What is created for us when we initialise a Node module?",
     Correct_answer: "A package.json file",
     Incorrect_answers: ["A git folder", "A link to npm", "A node file"],
+    Type: "MCQ",
   },
   {
     Topic: "backend",
@@ -390,6 +443,7 @@ const data = [
       "It has all of the error logs so that it is easy to debug",
       "It contains all the logic in a Node application",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "backend",
@@ -399,12 +453,14 @@ const data = [
       "Open index.js with the browser",
       "Type start index.js into the command line",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "backend",
     Question: "How do we export something (X) as the default export of a file?",
     Correct_answer: "export default X",
     Incorrect_answers: ["export please X", "export now X"],
+    Type: "MCQ",
   },
   {
     Topic: "database",
@@ -416,6 +472,7 @@ const data = [
       "It installs a random npm module",
       'Stands for "Not Package eXpress" and will remove express from an npm project.',
     ],
+    Type: "MCQ",
   },
   {
     Topic: "database",
@@ -426,6 +483,7 @@ const data = [
       "npm scriptName",
       "node scriptName",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "database",
@@ -436,6 +494,7 @@ const data = [
       "A big communal bath",
       "The database",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "database",
@@ -448,6 +507,7 @@ const data = [
       "So that it's in the correct format for a cloud database like Heroku Postgres to accept",
       "Convention to make the code more readable,",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "database",
@@ -460,6 +520,7 @@ const data = [
       "Reminder to ensure that your version of Node is v12 or later",
       "Always do at least 12 squats before your day of coding,",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "database",
@@ -473,6 +534,7 @@ const data = [
       "Different versions of dependencies may not work in the same way, so we need to specify the version that works with our software",
       "We have to know the version of our dependencies in order to add their node_modules to .gitignore,",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "react_basics",
@@ -484,6 +546,18 @@ const data = [
       "module.import ComponentName",
       'import default "./ComponentName"',
     ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "react_basics",
+    Question: "Select the correct rule when using react hooks",
+    Correct_answer: "Only call hooks from within react functions",
+    Incorrect_answers: [
+      "Only use custom hooks in your app component",
+      "Do not use built-in react hooks within your own custom hooks",
+      "There must be at least one hook in your react application",
+    ],
+    Type: "MCQ",
   },
   {
     Topic: "react_basics",
@@ -495,6 +569,7 @@ const data = [
       "npm i demo --create-react-app",
       "npm start react --demo",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "react_basics",
@@ -502,12 +577,14 @@ const data = [
       "What command do you use in the terminal to start a React app that has been initialised with create-react-app?",
     Correct_answer: "npm run",
     Incorrect_answers: ["npm i react", "npm start", "npx create-react-app"],
+    Type: "MCQ",
   },
   {
     Topic: "react_basics",
     Question: "Fill in the blank: A ____ component manages its own state.",
     Correct_answer: "Smart",
     Incorrect_answers: ["Handy", "Advanced", "Primitive", "Dumb"],
+    Type: "MCQ",
   },
   {
     Topic: "react_basics",
@@ -519,6 +596,7 @@ const data = [
       'const [state, setState] = useState ""',
       'const [state setState] = useState("")',
     ],
+    Type: "MCQ",
   },
   {
     Topic: "react_basics",
@@ -530,6 +608,7 @@ const data = [
       "module.exports = ComponentName",
       "export ComponentName",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "react_basics",
@@ -542,6 +621,7 @@ const data = [
       "Making sure to update every array and object in your code at once",
       "Making sure not to mutate the array or object into either one of the X-Men or a Teenage Mutant Ninja Turtle",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "react_basics",
@@ -553,6 +633,7 @@ const data = [
       "const newPets = [pets]",
       "const newPets = pets",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "react_basics",
@@ -565,6 +646,7 @@ const data = [
       "pets.slice(0, 2)",
       "pets.slice(pets[2])",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "backend",
@@ -575,6 +657,7 @@ const data = [
       "package.json.push('express')",
       "npm start express",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "backend",
@@ -582,6 +665,7 @@ const data = [
       'If you define your path with a placeholder, e.g. "/:thing", Express helps by recognising this and putting the value and key into which object of the req?',
     Correct_answer: "params",
     Incorrect_answers: ["response", "request", "searchTerm"],
+    Type: "MCQ",
   },
   {
     Topic: "backend",
@@ -593,12 +677,14 @@ const data = [
       "Parses what's passed to it and sends it as a normal object",
       "Summons JSON Statham to fix your code",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "javascript",
     Question: "Inside which HTML element do we put the JavaScript??",
     Correct_answer: "<script>",
     Incorrect_answers: ["<javascript>", "<style>", "<scripting>"],
+    Type: "MCQ",
   },
   {
     Topic: "javascript",
@@ -610,18 +696,21 @@ const data = [
       "<script href='xxx.js'>",
       "<script name='xxx.js'>",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "javascript",
     Question: "The external JavaScript file must contain the <script> tag.",
     Correct_answer: "False",
     Incorrect_answers: ["True"],
+    Type: "MCQ",
   },
   {
     Topic: "javascript",
     Question: "How do you create a function called myFunction in JavaScript?",
     Correct_answer: "function myFunction()",
     Incorrect_answers: ["function:myFunction()", "function = myFunction()"],
+    Type: "MCQ",
   },
   {
     Topic: "javascript",
@@ -632,6 +721,7 @@ const data = [
       "call myFunction()",
       "You dont need to call it",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "javascript",
@@ -642,6 +732,7 @@ const data = [
       "if (i == 5) then",
       "if (i === 5) then",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "javascript",
@@ -653,6 +744,7 @@ const data = [
       "It does not matter, the only difference is the syntax",
       "while loop: when you want it to run at least once regardless of the first condition, for loop: know how many times the loop should run",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "javascript",
@@ -663,6 +755,7 @@ const data = [
       "for (i=0 to i< 5; i++) {}",
       "for i=0; i++, {}",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "javascript",
@@ -673,13 +766,155 @@ const data = [
       "'red', 'green', 'blue'",
       "['{0=red}', '{1=green}', '{3=blue}']",
     ],
+    Type: "MCQ",
   },
   {
     Topic: "javascript",
     Question: "How do you declare a JS variable?",
     Correct_answer: "var variableName",
     Incorrect_answers: ["variable variableName", "variableName"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "javascript",
+    Question: "Select the statement that returns 'dog'",
+    Correct_answer: "true && 1 && 'dog'",
+    Incorrect_answers: ["'dog' && 0 && 'dog'", "'dog' && 1", "1 && ['dog']"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "javascript",
+    Question: "Select the non-falsy value",
+    Correct_answer: "'0'",
+    Incorrect_answers: ["null", "NaN", "false", "-0", "0"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "javascript",
+    Question:
+      "What is the difference, if any between type coercion and type conversion",
+    Correct_answer:
+      "coercion is implicit and conversion can be either implicit or explicit",
+    Incorrect_answers: [
+      "There is no difference",
+      "conversion is explicit and coercion is implicit",
+      "conversion is implicit and coercion can be either implicit or explicit",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "javascript",
+    Question: "Select the incorrect statement",
+    Correct_answer: "The runtime of recursive functions is linear ",
+    Incorrect_answers: [
+      "Recursion is when a function calls itself ",
+      "If there is nothing to stop a recursive function, it will continue to call itself forever",
+      "Recursive functions are asynchronous",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "javascript",
+    Question: "What does Scope involve?",
+    Correct_answer:
+      "The accessibility of different variables, including depending on whether they are global or local.",
+    Incorrect_answers: [
+      "The type of information that you can put into a variable.",
+      "The different titles that you can call different functions.",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "computer_science",
+    Question: "Which of the following is not in a Docker container?",
+    Correct_answer: "Docker image",
+    Incorrect_answers: ["Versions", "runtime", "system libraries and settings"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "computer_science",
+    Question: "What is the 'blueprint' of a container called?",
+    Correct_answer: "Image",
+    Incorrect_answers: ["Repository", "Blueprint", "Alogirthm", "Recipe"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "computer_science",
+    Question:
+      "Containers make it harder to maintain software because can't use APIs to communicate with the software inside of a container?",
+    Correct_answer: "Image",
+    Incorrect_answers: ["Repository", "Blueprint", "Alogirthm", "Recipe"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "computer_science",
+    Question: "Which of the following statements reagrding Docker are true?",
+    Correct_answer:
+      "Containers are scalable - you can spin up new nodes/instances if and when you need them.",
+    Incorrect_answers: [
+      "Containers make it harder to maintain software - you can't use APIs to communicate with the software inside of a container.",
+      "Docker containers are the same as virtual machines.",
+      "Docker containers are applicable in every situation and are the only way to containerize code.",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Agile",
+    Question:
+      "CWhat is the difference between authentication and authorisation?",
+    Correct_answer:
+      "Authentication checks who a user is; authorisation checks whether a user has permission to do something.",
+    Incorrect_answers: [
+      "Authentication checks how much money a user has; authorisation allows them to complete a purchase",
+      "Authentication re-routes the users IP address backwards; authorisation re-routes their IP address forwards.",
+      "Authentication checks where a user is; authorisation checks why they are there.",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Agile",
+    Question:
+      "What is the most common way to authenticate users on the internet?",
+    Correct_answer: "Passwords",
+    Incorrect_answers: ["Fingerprints", "Retina Scans", "Written Signatures"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Agile",
+    Question: "Which is the best type of code for sharing within a team?",
+    Correct_answer: "Code with low cognitive load",
+    Incorrect_answers: [
+      "Complex, but computationally efficient",
+      "Tall and narrow code",
+      "Short and wide code",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Agile",
+    Question: "Which of these things should be avoided",
+    Correct_answer: "Save a plain text password.",
+    Incorrect_answers: [
+      "Save an encrypted password.",
+      "Save environment variables.",
+      "Savour the taste of delicious encryption foodstuffs.",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Agile",
+    Question: "Which of these things should be avoided",
+    Correct_answer:
+      "Comparing a branch with the another branch, with a view to merging the branch into the other branch.",
+    Incorrect_answers: [
+      "Comparing one branch with another branch and deciding which branch to keep.",
+      "Asking for permission to clone a GitHub repository and make change.",
+      "Asking for permission to fork a GitHub repository.",
+    ],
+    Type: "MCQ",
   },
 ];
+// const newdata = data.map((obj) => (obj = { ...obj, Type: "MCQ" }));
+// console.log(newdata);
 
 export default data;

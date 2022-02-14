@@ -1,15 +1,17 @@
 import query from "./index.js";
 
-const sqlString = `CREATE TABLE IF NOT EXISTS users
+const sqlString = `CREATE TABLE IF NOT EXISTS scores
 (id SERIAL PRIMARY KEY,
-name TEXT,
-password CHAR(60),
-email varchar(319)
-)`;
+user_id VARCHAR,
+topic TEXT,
+time TIMESTAMP NOT NULL
+DEFAULT CURRENT_TIMESTAMP,
+score SMALLINT
+);`;
 
-async function createUsersTable() {
+async function createscoreTable() {
   const res = await query(sqlString);
-  console.log("Users table created:", res);
+  console.log("Scores table created:", res);
 }
 
-createUsersTable();
+createscoreTable();
