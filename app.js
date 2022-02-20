@@ -1,6 +1,6 @@
 import express from "express";
 import path from "path";
-
+import helmet from "helmet";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 import logger from "morgan";
@@ -10,7 +10,7 @@ import router2 from "./routes/users.js";
 const app = express();
 
 app.use(logger("dev"));
-
+app.use(helmet());
 app.use(cors());
 
 app.use(express.json());
@@ -31,3 +31,5 @@ app.use(function (err, req, res, next) {
 });
 
 export default app;
+
+// install helmet
