@@ -17,7 +17,7 @@ export async function getScores() {
 export async function getScoresByTopic(userId, topic) {
   if (topic === "all") {
     const data = await query(
-      `SELECT score,topic from scores WHERE user_id = $1;`,
+      `SELECT score,topic,time from scores WHERE user_id = $1;`,
       [userId]
     );
     return data.rows;
