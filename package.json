@@ -1,6 +1,6 @@
 {
-  "name": "national-project-week-repo-2-thomas-kavita-lorcan-and-eddie",
-  "version": "0.0.0",
+  "name": "national-project-week-backend",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "engines": {
