@@ -1,10 +1,10 @@
 import query from "./index.js";
 
-const sqlString = `TRUNCATE TABLE scores;`;
+const sqlString = `TRUNCATE TABLE questionData;`;
 
-async function deleteScores() {
+async function deletequestions() {
   const res = await query(sqlString);
   console.log("scores table emptied:", res);
 }
 
-deleteScores();
+deletequestions();

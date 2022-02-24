@@ -5,6 +5,7 @@ import {
   getQuestionsByTopic,
   getAllQuestions,
   getAllResources,
+  addQuestion,
 } from "../models/questions.js";
 
 router.get("/questions", async function (req, res) {
@@ -41,6 +42,14 @@ router.get("/topics", async function (req, res) {
     success: true,
     message: "here are all the topics",
     payload: topics,
+  });
+});
+router.post("/questions", async function (req, res) {
+  const response = addQuestion(req.body);
+  res.json({
+    success: true,
+    message: "Your question has been added",
+    payload: response,
   });
 });
 
