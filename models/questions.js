@@ -2,7 +2,7 @@ import query from "../db/index.js";
 
 export async function getQuestionsByTopic(topicname) {
   const data = await query(
-    `SELECT * FROM questionData WHERE topic = $1 ORDER BY RANDOM() LIMIT 6`,
+    `SELECT * FROM questionData WHERE topic = $1 ORDER BY RANDOM() LIMIT 10`,
     [topicname]
   );
   return data.rows;
