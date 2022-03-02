@@ -7,6 +7,7 @@ import logger from "morgan";
 
 import router from "./routes/questions.js";
 import router2 from "./routes/users.js";
+import router3 from "./routes/repeat.js";
 const app = express();
 
 app.use(logger("dev"));
@@ -19,6 +20,7 @@ app.use(cookieParser());
 
 app.use("/", router);
 app.use("/progress", router2);
+app.use("/repeat", router3);
 app.use(function (req, res, next) {
   res
     .status(404)

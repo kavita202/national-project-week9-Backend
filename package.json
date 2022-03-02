@@ -9,12 +9,14 @@
   "scripts": {
     "start": "node ./bin/www.js",
     "dev": "nodemon -r dotenv/config ./bin/www.js",
-    "dbcreatetable": "node -r dotenv/config ./db/createtable.js",
-    "dbcreaterescourcestable": "node -r dotenv/config ./db/createResourcesTable.js",
-    "dbpopulatetable": "node -r dotenv/config ./db/populatetable.js",
-    "dbpopulateresourcestable": "node -r dotenv/config ./db/populateResourceTable.js",
-    "dbcleartable": "node -r dotenv/config ./db/cleartable.js",
-    "dbcreateuserstable": "node -r dotenv/config ./db/usersTable.js"
+    "db:QuTable": "node -r dotenv/config ./db/createtable.js",
+    "db:RepeatTable": "node -r dotenv/config ./db/repeattable.js",
+    "db:ResourceTable": "node -r dotenv/config ./db/createResourcesTable.js",
+    "db:populateQuTable": "node -r dotenv/config ./db/populatetable.js",
+    "db:populateResourceTable": "node -r dotenv/config ./db/populateResourceTable.js",
+    "db:clearTable": "node -r dotenv/config ./db/cleartable.js",
+    "db:deleteTable": "node -r dotenv/config ./db/deletetable.js",
+    "db:createUsersTable": "node -r dotenv/config ./db/usersTable.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",

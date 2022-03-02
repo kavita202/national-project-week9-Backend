@@ -4,7 +4,7 @@ const sqlString = `TRUNCATE TABLE questionData;`;
 
 async function deletequestions() {
   const res = await query(sqlString);
-  console.log("scores table emptied:", res);
+  console.log("question table emptied:", res);
 }
 
 deletequestions();

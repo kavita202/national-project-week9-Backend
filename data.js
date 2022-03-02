@@ -114,10 +114,10 @@ const data = [
   {
     Topic: "Javascript",
     Question:
-      "What variable declerations can be used for variables with global scope?",
-    Correct_answer: "var, let and const because the decleration is irrevelant",
+      "What variable decelerations can be used for variables with global scope?",
+    Correct_answer: "var, let and const because the deceleration is irrelevant",
     Incorrect_answers: [
-      "None, global scope varibles do not need a decleration",
+      "None, global scope variables do not need a deceleration",
       "var only, block and scope are function scoped",
       "All variables have global scope",
     ],
@@ -204,7 +204,7 @@ const data = [
     Incorrect_answers: [
       "Accessibility purposes",
       "Ease of communication",
-      "Reinforce meaning of content on a web page rather than appearence",
+      "Reinforce meaning of content on a web page rather than appearance",
     ],
     Type: "MCQ",
   },
@@ -219,7 +219,7 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question: "What is REST?",
     Correct_answer:
       "An architectural standard informing how APIs are structured",
@@ -231,14 +231,14 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question: "Which of these is NOT an HTTP method?",
     Correct_answer: "SAVE",
     Incorrect_answers: ["PUT", "GET", "DELETE,"],
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question: "What's the difference between a PUT and a PATCH request",
     Correct_answer:
       "PUT should replace the whole item; PATCH should replace a bit of it.",
@@ -250,7 +250,7 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question:
       "Which of these is the correct syntax for a simple get route in an express app with an id param?",
     Correct_answer:
@@ -263,7 +263,7 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question: `In the following URL what are the query parameters?
       www.randomurl.com/path/filename?id=123&option=456`,
     Correct_answer: "id and option",
@@ -275,14 +275,14 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question: "How do you get the body of a POST, PUT, or PATCH request?",
     Correct_answer: "req.body",
     Incorrect_answers: ["res.body", "req.query", "req.params.body"],
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question: "What is an API?",
     Correct_answer:
       "A piece of technology that allows two different systems to talk to each other e.g. routes that connect to a database.",
@@ -292,7 +292,7 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question:
       "Which of the following is not a characteristic of a RESTful API?",
     Correct_answer: "Only uses XML for exchanging data",
@@ -304,7 +304,7 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question:
       "Which of the following is not a characteristic of a RESTful API?",
     Correct_answer: "Only uses XML for exchanging data",
@@ -316,15 +316,15 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question:
-      "There is no difference between REST and RESTful, REST is a set of contraints and RESTful refers to the API adhering to it",
+      "There is no difference between REST and RESTful, REST is a set of constraints and RESTful refers to the API adhering to it",
     Correct_answer: "True",
     Incorrect_answers: ["False"],
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question:
       'What HTTP status codes would we consider a "good" response that show our request was successful?',
     Correct_answer: "200s",
@@ -332,10 +332,10 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question: "How does the dotenv package work?",
     Correct_answer:
-      "It loads environment variables from a .env file into process.env, complying to reccomendations in 12 factor app",
+      "It loads environment variables from a .env file into process.env, complying to recommendations in 12 factor app",
     Incorrect_answers: [
       "Ensures our environment variables are not pushed to git",
       "It automatically detects where what applications need our environment variables and provides them",
@@ -343,7 +343,7 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question:
       "What's the difference between installing a Node package with a --save-dev flag and just installing as normal?",
     Correct_answer:
@@ -356,7 +356,7 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question: "What do req and res stand for in our Express handlers?",
     Correct_answer: "Request and response",
     Incorrect_answers: [
@@ -367,7 +367,7 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question:
       "When reading documentation, what do command prefixed with '$' mean?",
     Correct_answer: "Run the code in the terminal without the $",
@@ -379,7 +379,7 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question: "What is the purpose of middleware?",
     Correct_answer:
       "It lets you run code before the requests received by the server hit an endpoint.",
@@ -428,7 +428,7 @@ const data = [
   },
   {
     Topic: "Testing",
-    Question: "What is unit testing? ",
+    Question: "What is unit testing?",
     Correct_answer:
       "When you test a function or method in isolation in code to ensure it's giving the desired outcome.",
     Incorrect_answers: [
@@ -472,7 +472,7 @@ const data = [
 
   {
     Topic: "React",
-    Question: "Which of these describes a finite state machine? ",
+    Question: "Which of these describes a finite state machine?",
     Correct_answer:
       "A system where only particular, specified inputs cause only particular, specified changes in state.",
     Incorrect_answers: [
@@ -522,21 +522,21 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
-    Question: "How do we initialise a Node module?",
+    Topic: "Node",
+    Question: "How do we initialize a Node module?",
     Correct_answer: "npm init",
     Incorrect_answers: ["node start", "git init", "npm start"],
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
-    Question: "What is created for us when we initialise a Node module?",
+    Topic: "Node",
+    Question: "What is created for us when we initialize a Node module?",
     Correct_answer: "A package.json file",
     Incorrect_answers: ["A git folder", "A link to npm", "A node file"],
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question: "What is the package.json for?",
     Correct_answer:
       "It holds all the information about a Node module, including a list of dependencies",
@@ -547,21 +547,21 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question: "How do we run a file called index.js with Node?",
     Correct_answer: "$ node index.js",
     Incorrect_answers: ["Open index.js with the browser", "$ npm run index.js"],
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question: "How do we export something (X) as the default export of a file?",
     Correct_answer: "export default X",
     Incorrect_answers: ["export please X", "export now X"],
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question: "In what circumstance can we use export default",
     Correct_answer: "Exporting only one value",
     Incorrect_answers: [
@@ -596,7 +596,7 @@ const data = [
   {
     Topic: "Databases",
     Question: "What is a 'pool' in the pg module?",
-    Correct_answer: "The reccomended method to connect to the database",
+    Correct_answer: "The recommended method to connect to the database",
     Incorrect_answers: [
       "The only way we can make queries to our database",
       "The database",
@@ -607,9 +607,9 @@ const data = [
     Topic: "Databases",
     Question: "Why is the difference between client and pool?",
     Correct_answer:
-      "Client is one connection to the database, pool consist of several independant clients",
+      "Client is one connection to the database, pool consist of several independent clients",
     Incorrect_answers: [
-      "They are the same and can be used interchangibly",
+      "They are the same and can be used interchangeably",
       "client is better at managing traffic peaks allowing your database to scale effectively whereas pool is not reccomended for scaling",
     ],
     Type: "MCQ",
@@ -630,7 +630,7 @@ const data = [
     Question:
       "Why do we use prepared statements via parameterized queries ($1, $2 etc) when sending SQL queries in our Node servers to our database?",
     Correct_answer:
-      "So queries can be sanitised to avoid SQL injection attacks",
+      "So queries can be sanitized to avoid SQL injection attacks",
     Incorrect_answers: [
       "So that our statements can be more modular and we can use variables",
       "It is the standard format for cloud platforms such as heroku",
@@ -642,7 +642,7 @@ const data = [
     Topic: "Databases",
     Question: "What is difference between SQL and PostgreSQL?",
     Correct_answer:
-      "PostgreSQL is an advanced object-relational database that extendeds the subset of SQL standards including different transactions, foreign keys and subqueries",
+      "PostgreSQL is an advanced object-relational database that extends the subset of SQL standards including different transactions, foreign keys and subqueries",
     Incorrect_answers: [
       "PostgreSQL is a more up-to-date version of SQL",
       "There is little to no difference",
@@ -657,7 +657,7 @@ const data = [
       "A collection of data items with pre-defined relationships between them, stored in a set of tables",
     Incorrect_answers: [
       "A database organized around objects rather than actions, and data rather than logic.",
-      "A databsase very efficient in analyzing large size unstructured data",
+      "A database very efficient in analyzing large size unstructured data",
     ],
     Type: "MCQ",
   },
@@ -665,7 +665,7 @@ const data = [
     Topic: "Architecture",
     Question: "What is the 12 Factor App?",
     Correct_answer:
-      "Process, philosophy, and 'rules' to follow when structuring and architecting an app",
+      "Process, philosophy, and 'rules' to follow when structuring and designing an app",
     Incorrect_answers: [
       "12 key environment variables to include for security in your app",
       "12 different ways to run CRUD actions when responding to requests in an Express server",
@@ -674,7 +674,7 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question:
       "Why do we need to be specific about versions with dependencies in our software?",
     Correct_answer:
@@ -725,7 +725,7 @@ const data = [
   {
     Topic: "React",
     Question:
-      "What command do you use in the terminal to start a React app that has been initialised with create-react-app?",
+      "What command do you use in the terminal to start a React app that has been initialized with create-react-app?",
     Correct_answer: "npm run",
     Incorrect_answers: ["npm i react", "npm start", "npx create-react-app"],
     Type: "MCQ",
@@ -800,7 +800,7 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question: "How do you install Express in your Node project?",
     Correct_answer: "npm i express",
     Incorrect_answers: [
@@ -811,27 +811,26 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question:
-      'If you define your path with a placeholder, e.g. "/:thing", Express helps by recognising this and putting the value and key into which object of the req?',
+      'If you define your path with a placeholder, e.g. "/:thing", Express helps by recognizing this and putting the value and key into which object of the req?',
     Correct_answer: "params",
     Incorrect_answers: ["response", "request", "searchTerm"],
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question: "What does res.json() do in Express?",
     Correct_answer: "Stringifies what's passed to it and sends it as a JSON",
     Incorrect_answers: [
       "Parses whatever JSON is passed to it",
       "Checks if the request is correctly formatted as a JSON",
       "Parses what's passed to it and sends it as a normal object",
-      "Summons JSON Statham to fix your code",
     ],
     Type: "MCQ",
   },
   {
-    Topic: "Node & Express",
+    Topic: "Node",
     Question: "Select the correct format of a JSON object below",
     Correct_answer: `'{"name":"John", "age":30, "car":null}'`,
     Incorrect_answers: [
@@ -897,7 +896,7 @@ const data = [
   },
   {
     Topic: "Javascript",
-    Question: "In which scenarious would you use a while loop and a for loop?",
+    Question: "In which scenarios would you use a while loop and a for loop?",
     Correct_answer:
       "for loop: know how many times the loop should run, while loop: loop should break break based on a condition",
     Incorrect_answers: [
@@ -909,7 +908,7 @@ const data = [
   },
   {
     Topic: "Javascript",
-    Question: "Select the correct syntax to initialise the for loop",
+    Question: "Select the correct syntax to initialize the for loop",
     Correct_answer: "for (let i=0; i< 5; i++) { }",
     Incorrect_answers: [
       "for (let i=0, i< 5, i++) { }",
@@ -996,7 +995,7 @@ const data = [
     Topic: "Docker",
     Question: "What is the 'blueprint' of a container called?",
     Correct_answer: "Image",
-    Incorrect_answers: ["Repository", "Blueprint", "Alogirthm", "Recipe"],
+    Incorrect_answers: ["Repository", "Blueprint", "Algorithm", "Recipe"],
     Type: "MCQ",
   },
   {
@@ -1004,12 +1003,12 @@ const data = [
     Question:
       "Containers make it harder to maintain software because can't use APIs to communicate with the software inside of a container?",
     Correct_answer: "Image",
-    Incorrect_answers: ["Repository", "Blueprint", "Alogirthm", "Recipe"],
+    Incorrect_answers: ["Repository", "Blueprint", "Algorithm", "Recipe"],
     Type: "MCQ",
   },
   {
     Topic: "Docker",
-    Question: "Which of the following statements reagrding Docker are true?",
+    Question: "Which of the following statements regarding Docker are true?",
     Correct_answer:
       "Containers are scalable - you can spin up new nodes/instances if and when you need them.",
     Incorrect_answers: [
@@ -1022,13 +1021,13 @@ const data = [
   {
     Topic: "Security",
     Question:
-      "What is the difference between authentication and authorisation?",
+      "What is the difference between authentication and authorization?",
     Correct_answer:
-      "Authentication checks who a user is; authorisation checks whether a user has permission to do something.",
+      "Authentication checks who a user is; authorization checks whether a user has permission to do something.",
     Incorrect_answers: [
-      "Authentication checks how much money a user has; authorisation allows them to complete a purchase",
-      "Authentication re-routes the users IP address backwards; authorisation re-routes their IP address forwards.",
-      "Authentication checks where a user is; authorisation checks why they are there.",
+      "Authentication checks how much money a user has; authorization allows them to complete a purchase",
+      "Authentication re-routes the users IP address backwards; authorization re-routes their IP address forwards.",
+      "Authentication checks where a user is; authorization checks why they are there.",
     ],
     Type: "MCQ",
   },
@@ -1038,6 +1037,18 @@ const data = [
       "What is the most common way to authenticate users on the internet?",
     Correct_answer: "Passwords",
     Incorrect_answers: ["Fingerprints", "Retina Scans", "Written Signatures"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Security",
+    Question:
+      "Which of the following does not describe a JWT (JSON Web Token)?",
+    Correct_answer: "JWT cannot be processed on other platforms such as mobile",
+    Incorrect_answers: [
+      "A long set of characters that begins with ey",
+      "Standard used to share security information between two parties",
+      "Easy to work with as JSON parsers are common in most programming languages",
+    ],
     Type: "MCQ",
   },
   {
@@ -1052,9 +1063,47 @@ const data = [
     Type: "MCQ",
   },
   {
+    Topic: "Security",
+    Question:
+      "cookies and sessions are used to store user information for authentication and user preferences purposes?",
+    Correct_answer: "True",
+    Incorrect_answers: ["False"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Security",
+    Question: "Difference between a cookie and a session?",
+    Correct_answer:
+      "Session is on the server side and cookie on the client side",
+    Incorrect_answers: [
+      "Session can store textual information only but cookie can store text and objects",
+      "Session is on the client side and cookie on the server side",
+      "They are terms used interchangeably but both do the same thing - store user information",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Security",
+    Question: "What is OAuth?",
+    Correct_answer:
+      "Open standard for access delegation for example accessing websites using google/github without exchanging a password",
+    Incorrect_answers: [
+      "A library used to help developers add authentication/authorization to their applications ",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Security",
+    Question:
+      "OAuth Scopes are bundles of permissions asked for by the client when requesting a token",
+    Correct_answer: "True",
+    Incorrect_answers: ["False"],
+    Type: "MCQ",
+  },
+  {
     Topic: "TypeScript",
     Question: "Which of the following is not true of typescript?",
-    Correct_answer: "TypeScript is dymanically typed",
+    Correct_answer: "TypeScript is dynamically typed",
     Incorrect_answers: [
       "TypeScript makes larger codebases easier to maintain and shareable across developers and teams",
       "A strongly typed programming language that builds on JavaScript",
@@ -1062,12 +1111,13 @@ const data = [
     ],
     Type: "MCQ",
   },
+
   {
     Topic: "TypeScript",
     Question:
       "We must always explicitly include type annotations in our TypeScript code as TypeScript has no ability to infer types.",
     Correct_answer: "False",
-    Incorrect_answers: ["False"],
+    Incorrect_answers: ["True"],
     Type: "MCQ",
   },
   {
@@ -1081,6 +1131,233 @@ const data = [
     ],
     Type: "MCQ",
   },
+  {
+    Topic: "TypeScript",
+    Question: "Which of the following is not a feature provided by TypeScript?",
+    Correct_answer: "Set",
+    Incorrect_answers: ["Interfaces", "Enums", "Compiler (TSC)"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "TypeScript",
+    Question: "Which of the following describes an enum?",
+    Correct_answer:
+      "Defines a set of named constants, making it easier to document intent or create a set of distinct cases",
+    Incorrect_answers: [
+      "Describes how an object would look like",
+      "Compiles TS into JS which can then be executed in any JavaScript engine like the browser",
+      "fixed length arrays that can have different types of data",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "TypeScript",
+    Question:
+      "Which of the following would you use to combine two or more data types in TS?",
+    Correct_answer: "Union",
+    Incorrect_answers: ["Enum", "Tuple", "Interface"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "TypeScript",
+    Question: "Typescript can only be used on the client",
+    Correct_answer: "False",
+    Incorrect_answers: ["True"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "TypeScript",
+    Question:
+      "Browsers and Node.js offer direct support for TS files, running them automatically and seamlessly without the need for transpilation",
+    Correct_answer: "False",
+    Incorrect_answers: ["True"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "TypeScript",
+    Question:
+      "What is the difference between Type Aliases and Type Interfaces?",
+    Correct_answer:
+      "A type cannot be re-opened to add new properties vs an interface which is always extendable",
+    Incorrect_answers: [
+      "You can choose between them freely",
+      "An interface cannot be re-opened to add new properties vs a type which is always extendable",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "TypeScript",
+    Question: "Where is the type for anonymous functions declared?",
+    Correct_answer:
+      "Contextual typing occurs so no type deceleration is required",
+    Incorrect_answers: [
+      "After the argument deceleration in (), as with normal functions e.g. names.forEach((s): string => {console.log(s.toUppercase())",
+      "At the end of the function e.g. names.forEach((s) => {console.log(s.toUppercase()): string",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "TypeScript",
+    Question: "What is a Type Alias?",
+    Correct_answer:
+      "A name for any type so we can use the same type more than once and refer to it by a single name",
+    Incorrect_answers: [
+      "Another way to name an object type",
+      "A method used to combine two or more data types in TS",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Databases",
+    Question:
+      "Which of the following is not an advantage of DBMS (database management systems)?",
+    Correct_answer: "It provides a single user interface.",
+    Incorrect_answers: [
+      "Validates the data entered and provide restrictions on unauthorized access",
+      "Data is stored in a structured way and hence redundancy is controlled",
+      "Provides backup and recovery of the data",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Databases",
+    Question:
+      "Which of the following is a description of the one-to-many relationship in a database?",
+    Correct_answer:
+      "The primary key table contains only one record that relates to none, one or many records in the related table",
+    Incorrect_answers: [
+      "Each primary key relates to only one or no record in the related table",
+      "Each record in both the tables can relate to many numbers of records in another table.",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Databases",
+    Question:
+      "Which of the following is not a negative result of redundant data?",
+    Correct_answer:
+      "Provide continued operations or services in the event of data corruption or data loss",
+    Incorrect_answers: [
+      "Wastage of the storage space",
+      "Integrity of the DB is destroyed",
+      "duplicated data is present at multiple locations",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Agile",
+    Question:
+      "Select the statement that incorrectly describes the difference between Agile and Scrum",
+    Correct_answer:
+      "Agile and Scrum are both process companies use to help deliver value to their customers and so can be substituted for each other.",
+    Incorrect_answers: [
+      "Agile has more flexibility for change whereas Scrum,has less.",
+      "Agile is a methodology used for software/project management whereas Scrum is a form of Agile that describes the process and its steps.",
+      "Agile tasks tend to be handled and managed bu the project head whereas Scrum tasks are addressed and handled by entire team members.",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Agile",
+    Question:
+      "Which of the following best describes the agile methodology scrum?",
+    Correct_answer:
+      "Relies on incremental development. Hypotheses are established, tested and reflected upon with necessary adjustments made",
+    Incorrect_answers: [
+      "Focus on process efficiency for optimum results in customer value by minimizing waste and maximizing value",
+      "Projects generally managed through a board or table to help members keep an eye on workflow",
+      "Agile tasks tend to be handled and managed by the project head whereas Scrum tasks are addressed and handled by entire team members.",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Agile",
+    Question:
+      "Which of the following do not belong to the Principles of Agile Testing?",
+    Correct_answer: "Strong documentation",
+    Incorrect_answers: ["Continuous Feedback", "Test-Driven", "Clean Code"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Agile",
+    Question: "What is meant by the term velocity in Agile?",
+    Correct_answer:
+      "Measure of how much work (story points) an agile development team can successfully complete in a given time period",
+    Incorrect_answers: [
+      "Estimate of the total amount of engineering time available for a given sprint.",
+      "Team's committed value of the number of points the team intends to deliver in a sprint",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Agile",
+    Question:
+      "Which of the following is not likely to be addressed at a Daily Stand-Up?",
+    Correct_answer: "Solve a problem or challenge",
+    Incorrect_answers: [
+      "Problems of the team",
+      "Ensure a better understanding of goals",
+      "To know what was done yesterday and the plan for today",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Agile",
+    Question: "What is iterative development?",
+    Correct_answer:
+      "Process where software development cycles (sprint and releases) are repeated until the final product is obtained",
+    Incorrect_answers: [
+      "Process where development works are sliced into increments and after testing, integrated so they work as a whole",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Agile",
+    Question:
+      "Select the property that does not belong to the traditional waterfall approach",
+    Correct_answer:
+      "Collaborate with customers in each and every step throughout the process.",
+    Incorrect_answers: [
+      "Focus on upfront planning, giving importance to cost, scope and time",
+      "Testers and developers work separately",
+      "More suitable for small or less complex projects",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Agile",
+    Question: "Select the advantage of adopting the agile process",
+    Correct_answer: "Adapt well with changing requirements",
+    Incorrect_answers: [
+      "Costly as compared to other development methodologies",
+      "Risk of ever-lasting project",
+      "Difficult to scale large projects",
+      "More time and energy requirements from individuals",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Agile",
+    Question: "Which of the following is not a scrum impediment?",
+    Correct_answer: "A blocker",
+    Incorrect_answers: [
+      "Lack of management supportive system",
+      "Missing resources",
+      "Lack of skill or knowledge",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "Agile",
+    Question: "What are burn-up and burn-down charts",
+    Correct_answer:
+      "Burn-up chart illustrates the amount of work completed in a project whereas burn-down charts depicts the work remaining",
+    Incorrect_answers: [
+      "Burn-down chart illustrates the amount of work completed in a project whereas burn-up charts depicts the work remaining",
+      "Burn-up illustrates the members of the team who are overperforming and the burn-down depicts members who are underperforming",
+      "These charts do not exist",
+    ],
+    Type: "MCQ",
+  },
 ];
-
 export default data;
