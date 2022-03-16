@@ -26,7 +26,7 @@ export async function addRepeatScore(
       VALUES ($1, $2, $3, $4, $5, $6) RETURNING *`,
     [front, interval, repetition, efactor, dueDate, userId]
   );
-  // console.log(data.rows);
+
   return data.rows;
 }
 
@@ -43,6 +43,5 @@ export async function updateRepeatScore(
       WHERE user_id = $1 AND front = $6 RETURNING *`,
     [userId, interval, repetition, efactor, dueDate, front]
   );
-  console.log(data.rows);
   return data.rows;
 }

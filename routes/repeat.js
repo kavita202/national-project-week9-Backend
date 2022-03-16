@@ -15,16 +15,13 @@ router3.get("/", async (req, res) => {
 
 router3.post("/", async (req, res) => {
   const { userId } = req.body;
-  console.log(req.body);
   const response = await getRepeatDataForUser(userId);
-  console.log(req.body);
   res.json({ payload: response });
 });
 
 // if the payload is empty we add new data to the table
-router3.put("/", async (req, res) => {
+router3.post("/new", async (req, res) => {
   const { front, interval, repetition, efactor, dueDate, userId } = req.body;
-  console.log(req.body);
   const data = await addRepeatScore(
     front,
     interval,
@@ -37,9 +34,8 @@ router3.put("/", async (req, res) => {
 });
 
 // if the payload is not empty, use it to recalculate specific data and send an update
-router3.patch("/", async (req, res) => {
+router3.put("/", async (req, res) => {
   const { front, interval, repetition, efactor, dueDate, userId } = req.body;
-  console.log(req.body);
   const data = await updateRepeatScore(
     front,
     interval,

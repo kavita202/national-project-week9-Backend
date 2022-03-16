@@ -9,12 +9,22 @@ const data = [
   },
   {
     Topic: "CSS",
+    Question: "What do we use pseudo elements?",
+    Correct_answer:
+      "Apply CSS to the specific parts of an elements or a newly inserted content e.g ::before, ::after",
+    Incorrect_answers: [
+      "Apply css based on the state of an element e.g :hover, :focus",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
     Question: "How does specificity work in CSS?",
     Correct_answer:
       "It adds points based on selectors you have used and decides the order of precedence when more than one selector is applied to an element",
     Incorrect_answers: [
       "It adds all selectors and divides by 100",
-      "Specificity doesn't exist in CSS",
+      "Specificity refers to how precise ",
       "It allows you to use JavaScript to target and change specific CSS attributes",
     ],
     Type: "MCQ",
@@ -114,10 +124,10 @@ const data = [
   {
     Topic: "Javascript",
     Question:
-      "What variable decelerations can be used for variables with global scope?",
-    Correct_answer: "var, let and const because the deceleration is irrelevant",
+      "What variable declarations can be used for variables with global scope?",
+    Correct_answer: "var, let and const because the declaration is irrelevant",
     Incorrect_answers: [
-      "None, global scope variables do not need a deceleration",
+      "None, global scope variables do not need a declaration",
       "var only, block and scope are function scoped",
       "All variables have global scope",
     ],
@@ -189,13 +199,13 @@ const data = [
     ],
     Type: "MCQ",
   },
-  {
-    Topic: "Javascript",
-    Question: "What type is yielded from querySelectorAll() and childNodes()",
-    Correct_answer: "Nodelist",
-    Incorrect_answers: ["HTML Collection", "Array"],
-    Type: "MCQ",
-  },
+  // {
+  //   Topic: "Javascript",
+  //   Question: "What type is yielded from querySelectorAll() and childNodes()",
+  //   Correct_answer: "Nodelist",
+  //   Incorrect_answers: ["HTML Collection", "Array"],
+  //   Type: "MCQ",
+  // },
   {
     Topic: "CSS",
     Question: "In which circumstance would semantic HTML not be useful",
@@ -205,6 +215,214 @@ const data = [
       "Accessibility purposes",
       "Ease of communication",
       "Reinforce meaning of content on a web page rather than appearance",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question:
+      "Which of the following positioning properties removes the component from the normal document flow?",
+    Correct_answer: "Absolute",
+    Incorrect_answers: ["Static", "Sticky", "Relative"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question: "By default, how are HTML elements positioned?",
+    Correct_answer: "Static",
+    Incorrect_answers: ["Fixed", "Absolute", "Relative"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question:
+      "What two positioning properties does the position sticky toggle between?",
+    Correct_answer: "Relative and Fixed",
+    Incorrect_answers: [
+      "Fixed and Absolute",
+      "Absolute and Static",
+      "Relative and Absolute",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question:
+      "What four properties describe the CSS box model if working outwards from the HTML element?",
+    Correct_answer: "Content, Padding, Border, Margin",
+    Incorrect_answers: [
+      "Content, Margin, Border, Padding",
+      "Content, Border, Padding, Margin",
+      "Padding, Content, Margin, Border",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question:
+      "What statement below best describes the padding of an HTML element?",
+    Correct_answer: "Clears an area around the content",
+    Incorrect_answers: [
+      "Where text and images appear",
+      "Clears an area around the border",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question:
+      "Which of the following correctly selects an element with a title attribute containing the word flower?",
+    Correct_answer: "[title~='flower']",
+    Incorrect_answers: [
+      "[title='flower']",
+      "[title|='flower']",
+      "[class^='top']",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question:
+      "Select the html tag below that will take up the full width available?",
+    Correct_answer: "p",
+    Incorrect_answers: ["span", "img", "a"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question: "Which of the following is not a valid combinator selector?",
+    Correct_answer: "Parent e.g div < p",
+    Incorrect_answers: [
+      "Descendant e.g div p",
+      "Child e.g div > p",
+      "Adjacent e.g div + p",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question: "Which of the following best describes a Block-level Element?",
+    Correct_answer:
+      "starts on a new line and takes up the full width available",
+    Incorrect_answers: [
+      "does not start on a new line and only takes up as much width as necessary",
+      "starts on a new line and only takes up as much width as necessary",
+      "does not start on a new line and takes up the full width available",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question:
+      "If an element should not be seen by the user but take up the same space as if it were there, what property should be used?",
+    Correct_answer: "visibility:hidden",
+    Incorrect_answers: ["display: none", "display: hidden", "visibility: none"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question:
+      "Which of the following properties is not a characteristic of the default flex display?",
+    Correct_answer: "flex-wrap:wrap",
+    Incorrect_answers: [
+      "Items stretch to fit the size of the cross axis",
+      "flex-basis: auto",
+      "items display in a row",
+      "items start from the edge of the main axis",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question:
+      "Which of the following properties will result in both a horizontal flex-direction and a multi-line flex container?",
+    Correct_answer: "flex-flow: row wrap;",
+    Incorrect_answers: [
+      "flex-flow: column nowrap;",
+      "display:flex",
+      "display:flex and flex-direction: column",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question: "Which description best describes the term flex-basis",
+    Correct_answer:
+      "defines the size of the an item in terms of the space it leaves as available space",
+    Incorrect_answers: [
+      "defines the ability for an item to grow along the main axis",
+      "defines the ability for an item to shrink along the main axis",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question:
+      "Select the value that cannot be assigned to the align-items property.",
+    Correct_answer: "space-between",
+    Incorrect_answers: ["Stretch", "flex-start", "flex-end", "center"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question:
+      "Which justify-content value results in items having a half-size space on either end?",
+    Correct_answer: "space-around",
+    Incorrect_answers: ["center", "space-evenly", "space-between"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question:
+      "Select the media query that applies the mobile first approach by selecting a larger screen",
+    Correct_answer: "@media only screen and (min-width: 768px) { })",
+    Incorrect_answers: [
+      "@media only screen and (max-width: 768px) { })",
+      "@media only screen and (max-width: 1200px) { })",
+    ],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question:
+      "Which of the units below do not scale relative to anything else i.e. are considered to always be the same size",
+    Correct_answer: "px",
+    Incorrect_answers: ["em", "rem", "vh", "lh"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question: "Which unit below is not calculated relative to the parent",
+    Correct_answer: "rem",
+    Incorrect_answers: ["em", "%"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question: "Which value is not an argument for the RGB function",
+    Correct_answer: "lightness",
+    Incorrect_answers: ["opacity", "red", "green", "blue"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question:
+      "If a font-size value of 1.3 was placed on both a parent (<ol>) and child (<li>), which of the following units would result in the child being visibly larger than the parent?)",
+    Correct_answer: "em",
+    Incorrect_answers: ["rem", "px"],
+    Type: "MCQ",
+  },
+  {
+    Topic: "CSS",
+    Question: `Which best describes the layout of a grid from the properties listed below:
+      .wrapper {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr 2fr);
+      }`,
+    Correct_answer: "A pattern of 1fr track and a 2fr track repeated 5 times",
+    Incorrect_answers: [
+      "A total of 5 tracks with a alternating pattern of 1fr and 2fr",
+      "5 1fr tracks followed by 5 2fr tracks",
     ],
     Type: "MCQ",
   },
@@ -328,7 +546,7 @@ const data = [
     Question:
       'What HTTP status codes would we consider a "good" response that show our request was successful?',
     Correct_answer: "200s",
-    Incorrect_answers: ["100s", "200s", "300s", "400s"],
+    Incorrect_answers: ["100s", "300s", "400s"],
     Type: "MCQ",
   },
   {
@@ -483,7 +701,7 @@ const data = [
     Type: "MCQ",
   },
   {
-    Topic: "React",
+    Topic: "JavaScript",
     Question:
       "In the reduce method's callback function, what is the role of the accumulator?",
     Correct_answer:
@@ -832,10 +1050,10 @@ const data = [
   {
     Topic: "Node",
     Question: "Select the correct format of a JSON object below",
-    Correct_answer: `'{"name":"John", "age":30, "car":null}'`,
+    Correct_answer: `{"name":"John", "age":30, "car":null}`,
     Incorrect_answers: [
-      `'{name:"John", age:30, car:null}'`,
-      `'{"name":"John", "age":"30", "car":"null"}'`,
+      `{name:"John", age:30, car:null}`,
+      `{'name':'John', 'age':30, 'car':null}`,
     ],
     Type: "MCQ",
   },
@@ -1189,9 +1407,9 @@ const data = [
     Topic: "TypeScript",
     Question: "Where is the type for anonymous functions declared?",
     Correct_answer:
-      "Contextual typing occurs so no type deceleration is required",
+      "Contextual typing occurs so no type declaration is required",
     Incorrect_answers: [
-      "After the argument deceleration in (), as with normal functions e.g. names.forEach((s): string => {console.log(s.toUppercase())",
+      "After the argument declaration in (), as with normal functions e.g. names.forEach((s): string => {console.log(s.toUppercase())",
       "At the end of the function e.g. names.forEach((s) => {console.log(s.toUppercase()): string",
     ],
     Type: "MCQ",
